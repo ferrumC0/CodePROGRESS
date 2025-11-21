@@ -1,0 +1,77 @@
+//BAB 1
+//contoh program pertama dalam coding
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "C++ mudah di pelajari?" << endl;
+    cout << "Jangan percaya tanpa mencobanysa!" << endl;
+
+    return 0;
+}
+
+//Proses pemrograman dan menangani kesalahan
+bilangan = 1;
+while (bilangan <= 99)
+{
+    cout << bilangan << endl;
+    bilangan = bilangan + 2;
+}
+
+
+//BAB 2
+//Pengarah Praprosesor #include
+/*
+#include adalah salah satu pengarah praprosesor yang tersedia di c++
+bentuk umum dari #include dapat berupa :
+ 1.#include <nama_file>
+ 2.#include "nama_file
+ -Bentuk pertama mengisyaratkan bahwa pencarian file dilakukan pada
+ direktori khusus (direktori yang diatur oleh kompiler). Adapun bentuk kedua
+ menyatakan bahwa pencarian file akan dilakukan pertamakali di direktori kerja.
+ Jika nama_file tidak di temmukan di direktori kerja, pencarian akan dilakukan di direktori-direktori
+ yang tercantum dalam variabel lingkungan bernama PATH.
+ -Semua program ke depan akan menggunakan bentuk pertama jika yang dipakai adalah header file yang disediakan oleh C++.
+ Bentuk kedua akan digunakan kalau header file berupa file buatan sendiri                  "*/
+#include <iostream>                                             //*1
+using namespace std;                                            //bentuk penyederhanaan notasi object di dalam fungsi, std :: cout atau
+int main()                                                      //std :: endl menjadi cout dan endl saja.
+{
+    cout << "C++ mudah di pelajari?" << endl;                   //Cout merupakah suatu OBJECT, dalam kasus ini cout adalah output menuju layar
+    cout << "Jangan percaya tanpa mencobanya!" << endl;
+
+    return 0;
+}
+//CONTOH 2 memakai std tanpa namespace
+#include <iostream>
+
+int main()
+{
+    std :: cout << "C++ mudah di pelajari?" << std :: endl;
+    std :: cout << "Jangan percaya tanpa mencobanya!" << std :: endl;
+
+    return 0;
+}
+
+//Gaya penulisan program
+#include <iostream>
+
+int main() {
+    std :: cout << "Anjay" 
+    << std :: endl;
+    std :: cout << "uhuuuuuuuuuy" 
+    << std :: endl;
+
+    return 0;
+}
+ //Gaya penulisan 2
+ #include <iostream>
+
+ int main() {std :: cout << "anjay" 
+<< std :: endl; std :: cout << " gurinjay" << std :: endl; return 0;
+ }
+
+ //BAB 2 ELEMEN DASAR
+
+ 
